@@ -1,0 +1,12 @@
+*{
+    background-color: #f8f0ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+h1{
+    background-color: yellow;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
