@@ -16,6 +16,8 @@ h1{
     text-align: center;
     font-size: 3rem;
     border: 3px solid #000;
+    border-radius: 10px;
+    background-color: rgb(246, 248, 250);
 }
 p{
     font-family: 'Bebas Neue', cursive;
