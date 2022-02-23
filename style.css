@@ -5,10 +5,9 @@ body {
     margin: 0;
     background-color: rgb(18, 175, 128);
 }
-
 .container{
     margin: auto;
-    height: 500px;
+    height: 450px;
     width: 350px;
     position: absolute;
     top: 0;
@@ -16,16 +15,90 @@ body {
     right: 0;
     left: 0;
 }
-
 .cat {
+    z-index: 20;
     position: relative;
     top: 150px;
     left: 150px;
+    background-color: crimson;
+    /* width: 160px; */
 }
-
+.ss{
+    z-index: 30;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: indigo;
+    left: 310px;
+    top: 50px;
+}
 .face{
-    background-color: #33292b;
+    background-color: #272021;
     height: 90px;
     width: 150px;
     border-radius: 30px;
+}
+.ear-l,.ear-r{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #272021;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    bottom: 90px;
+}
+.ear-l{
+    bottom: 37px;
+    transform: rotate(-25deg);
+}
+.ear-r{
+    left: 110px;
+    bottom: 85px;
+    transform: rotate(25deg);
+}
+.innerl{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-left: 25px solid transparent;
+    right: 25px;
+    position: relative;
+
+}
+.innerr{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-right: 25px solid transparent;
+    position: relative;
+}
+.eyel,.eyer{
+    background-color: #d2873b;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eyel{
+    left: 30px;
+    bottom: 75px;
+}
+.eyer{
+    bottom: 110px;
+    left: 90px;
+}
+.eyeball{
+    background-color: black;
+    width: 25%;
+    height: 65%;
+    border-radius: 60%;
+    transition: all .2s ease;
+
+}
+.cat:hover .eyeball{
+    width: 75%;
+    height: 75%;
 }
