@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(18, 175, 128);
+}
+
+.container{
+    margin: auto;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.cat {
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.face{
+    background-color: #33292b;
+    height: 90px;
+    width: 150px;
+    border-radius: 30px;
+}
